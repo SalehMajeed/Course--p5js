@@ -18,8 +18,8 @@ function draw() {
 	for (let x = 25; x < 400; x += 50) ellipse(x, 300, 40, 40);
 }
 
-// function mousePressed() {
-// 	background(255, 30, 10);
-// 	console.log('in');
-// 	fill(100);
-// }
+function mousePressed() {
+	background(255, 30, 10);
+	console.log('in');
+	fill(100);
+}
